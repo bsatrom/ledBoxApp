@@ -1,0 +1,16 @@
+{
+    "name":"ledBoxApp",
+    "version":"0.0.1",
+    "description":"{N} Controller app for the LED Box IoT App",
+    "repository": {
+        "type":"git",
+        "url":"git://github.com/bsatrom/ledBoxApp.git"
+    },
+    "keywords":["nativescript","tns","iot","spark","mobile"],
+    "author":"Brandon Satrom",
+    "bugs": {
+        "url":"https://github.com/bsatrom/ledBoxApp/issues"
+    },
+    "license":"MIT",
+    "homepage":"https://github.com/bsatrom/ledBoxApp"
+}

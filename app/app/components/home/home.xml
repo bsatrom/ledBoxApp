@@ -1,0 +1,14 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <GridLayout rows="auto, *">
+    <Label text="Led Box Controller" cssClass="title" />
+
+    <ListView row="1">
+      <ListView.item>
+        <Label text="Show Temp" cssClass="listItem" tap="showTemp" />
+      </ListView.item>
+      <ListView.item>
+        <Label text="Show Text" cssClass="listItem" tap="show Text" />
+      </ListView.item>
+    </ListView>
+  </GridLayout>
+</Page>

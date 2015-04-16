@@ -1,5 +1,5 @@
 {
-    "name":"ledBoxApp",
+    "name":"LED Boxbot",
     "version":"0.0.1",
     "description":"{N} Controller app for the LED Box IoT App",
     "repository": {

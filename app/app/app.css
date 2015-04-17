@@ -1,5 +1,5 @@
 Page {
-    background-color: #DF514C;
+    background-color: white;
 }
 
 Button {
@@ -8,6 +8,19 @@ Button {
   font-size: 24;
   width: 200;
   height: 200;
+}
+
+TextField {
+  margin: 10 10 10 10;
+  padding-left: 20;
+  font-size: 18;
+  color: #808080;
+  horizontal-align: center;
+}
+
+.SendButton {
+  color: #808080;
+  font-size: 24;
 }
 
 GridLayout {
@@ -40,6 +53,7 @@ GridLayout {
 
 .info{
     margin: 10;
-    font-size:24;
+    text-align: center;
+    font-size: 18;
     color: #808080;
 }

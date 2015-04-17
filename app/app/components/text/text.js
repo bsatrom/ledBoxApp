@@ -15,10 +15,6 @@ function pageNavigatedTo(args) {
         var statusCode = response.statusCode;
 
         console.log("**** " + statusCode);
-
-        dialogsModule.alert("Text Sent").then(function () {
-    			console.log("**** dialogWorked");
-    		});
     }, function (e) {
         console.log("ERROR ***** " + JSON.stringify(e));
         done(e);

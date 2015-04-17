@@ -1,6 +1,9 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="pageNavigatedTo">
+<Page cssClass="detailPage" xmlns="http://www.nativescript.org/tns.xsd"
+  navigatedTo="pageNavigatedTo">
   <StackLayout>
-    <Label text="{{ title }}" cssClass="title"/>
-    <Label text="{{ info }}" cssClass="info" textWrap="true"/>
+    <Label text="Display the weather in your City" cssClass="info"
+      textWrap="true"/>
+    <TextField id="cityName" hint="City name..." />
+    <Button cssClass="SendButton" text="Send" tap="sendTapped" />
   </StackLayout>
 </Page>

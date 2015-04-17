@@ -1,8 +1,8 @@
 {
-	"id": "com.telerik.ledBoxApp",
+	"id": "com.satrom.ledBoxApp",
 	"tns-ios": {
 		"version": "0.9.1"
-	},
+	}, 
 	"tns-android": {
 		"version": "0.9.0"
 	}

@@ -1,5 +1,5 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
-  <GridLayout columns="150, 150*" rows="auto, auto, auto, *">
+  <GridLayout columns="160, 160" rows="170, 170, 170">
     <Button col="0" id="tempButton" tap="tempTap" text="Temperature" />
     <Button col="1" id="textButton" tap="textTap" text="Text" />
 

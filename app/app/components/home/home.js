@@ -11,7 +11,7 @@ function pageLoaded(args) {
 
       var navBar = controller.navigationBar;
       controller.navigationBarHidden = false;
-      navBar.barTintColor = UIColor.colorWithRedGreenBlueAlpha(0.86, 0.25, 0.23, 1);
+      navBar.barTintColor = UIColor.colorWithRedGreenBlueAlpha(0.86, 0.20, 0.25, 1);
       navBar.titleTextAttributes =
         new NSDictionary([UIColor.whiteColor()],
                          [NSForegroundColorAttributeName]);
@@ -25,19 +25,32 @@ function pageLoaded(args) {
 
 exports.pageLoaded = pageLoaded;
 
-function listViewItemTap(args) {
-    var items = vmModule.mainViewModel.get("items");
-    var item = items.getItem(args.index);
-
-    //console.log("****IDX " + JSON.stringify(item));
-    frames.topmost().navigate({
-        moduleName: "app/components/" + item.component + "/" + item.component,
-        context: args.view.bindingContext
-    });
-}
-exports.listViewItemTap = listViewItemTap;
-
 function tempTap(args) {
-
+  frames.topmost().navigate({ moduleName: "app/components/weather/weather" });
 }
 exports.tempTap = tempTap;
+
+function textTap(args) {
+  frames.topmost().navigate({ moduleName: "app/components/text/text" });
+}
+exports.textTap = textTap;
+
+function newsTap(args) {
+  frames.topmost().navigate({ moduleName: "app/components/news/news" });
+}
+exports.newsTap = newsTap;
+
+function stocksTap(args) {
+  frames.topmost().navigate({ moduleName: "app/components/stocks/stocks" });
+}
+exports.stocksTap = stocksTap;
+
+function plasmaTap(args) {
+  frames.topmost().navigate({ moduleName: "app/components/plasma/plasma" });
+}
+exports.plasmaTap = plasmaTap;
+
+function randomTap(args) {
+  frames.topmost().navigate({ moduleName: "app/components/random/random" });
+}
+exports.randomTap = randomTap;

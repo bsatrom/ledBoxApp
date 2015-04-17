@@ -1,14 +1,13 @@
 Page {
-    background-color: white;
+    background-color: #DF514C;
 }
 
 Button {
-  margin: 20;
   horizontal-align: center;
   color: white;
-  font-size: 18;
-  width: 110;
-  height: 110;
+  font-size: 24;
+  width: 200;
+  height: 200;
 }
 
 GridLayout {
@@ -20,31 +19,23 @@ GridLayout {
 }
 
 #textButton {
-  background-color: #1FDA9A;
-}
-
-#newsButton {
-  background-color: #E8B71A;
-}
-
-#stocksButton {
-  background-color: #542733;
-}
-
-#plasmaButton {
-  background-color: #DB3340;
-}
-
-#randomButton {
   background-color: #F38630;
 }
 
-.listItem {
-    margin: 10;
-    horizontal-align: center;
-    color: white;
-    background-color: #008BBA;
-    font-size: 32;
+#newsButton {
+  background-color: #FCD059;
+}
+
+#stocksButton {
+  background-color: #DF514C;
+}
+
+#plasmaButton {
+  background-color: #1FDA9A;
+}
+
+#randomButton {
+  background-color: #6E9ECF;
 }
 
 .info{

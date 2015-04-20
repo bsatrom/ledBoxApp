@@ -1,6 +1,9 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="pageNavigatedTo">
+<Page cssClass="detailPage" xmlns="http://www.nativescript.org/tns.xsd"
+  navigatedTo="pageNavigatedTo">
   <StackLayout>
-    <Label text="{{ title }}" cssClass="title"/>
-    <Label text="{{ info }}" cssClass="info" textWrap="true"/>
+    <Label text="Display text on your LED Panel" cssClass="info"
+      textWrap="true"/>
+    <TextField id="displayText" hint="Display text..." />
+    <Button cssClass="SendButton" text="Send" tap="sendTapped" />
   </StackLayout>
 </Page>

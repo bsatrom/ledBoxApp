@@ -6,8 +6,10 @@ Button {
   horizontal-align: center;
   color: white;
   font-size: 24;
-  width: 200;
-  height: 200;
+  padding: 0;
+  margin: 0;
+  width: 210;
+  height: 230;
 }
 
 TextField {

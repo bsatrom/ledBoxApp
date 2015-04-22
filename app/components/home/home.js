@@ -1,34 +1,25 @@
-var page;
+var applicationModule = require("application");
+var colorModule = require("color");
 var frames = require("ui/frame");
-var vmModule = require("./home-viewModel");
+var page;
 
 function pageLoaded(args) {
     page = args.object;
-    page.bindingContext = vmModule.mainViewModel;
 
     // iOS-Specific Status-Bar Work
-    if (page.ios) {
+    if (applicationModule.ios) {
+      page.ios.title = "LED Boxbot";
+
       var controller = frames.topmost().ios.controller;
-
       var navBar = controller.navigationBar;
-      var navigationItem = controller.visibleViewController.navigationItem;
 
-      controller.navigationBarHidden = false;
-      navBar.barTintColor = UIColor.colorWithRedGreenBlueAlpha(0.86, 0.20, 0.25, 1);
+      navBar.barTintColor = new colorModule.Color("#E0515C").ios;
       navBar.titleTextAttributes =
         new NSDictionary([UIColor.whiteColor()],
                          [NSForegroundColorAttributeName]);
+      navBar.tintColor = new colorModule.Color("#FFFFFF").ios;
 
-      navBar.barStyle = 1;
-      navBar.tintColor = UIColor.whiteColor();
-      page.ios.title = "LED Boxbot";
-
-      // creates item with UIBarButtonSystemItemAction icon
-      var shareItem = new UIBarButtonItem(UIBarButtonSystemItem.UIBarButtonSystemItemEdit, null, null);
-
-      // add item to navigation bar
-      var actionButtonItems = [shareItem];
-      navigationItem.rightBarButtonItems = actionButtonItems;
+      controller.navigationBarHidden = false;
     }
 }
 

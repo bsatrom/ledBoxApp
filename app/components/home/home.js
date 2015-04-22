@@ -38,42 +38,42 @@ exports.pageLoaded = pageLoaded;
 function tempTap(args) {
   changeTitleForBackButton();
 
-  frames.topmost().navigate({ moduleName: "app/components/weather/weather" });
+  frames.topmost().navigate({ moduleName: "components/weather/weather" });
 }
 exports.tempTap = tempTap;
 
 function textTap(args) {
   changeTitleForBackButton();
 
-  frames.topmost().navigate({ moduleName: "app/components/text/text" });
+  frames.topmost().navigate({ moduleName: "components/text/text" });
 }
 exports.textTap = textTap;
 
 function newsTap(args) {
   changeTitleForBackButton();
 
-  frames.topmost().navigate({ moduleName: "app/components/news/news" });
+  frames.topmost().navigate({ moduleName: "components/news/news" });
 }
 exports.newsTap = newsTap;
 
 function stocksTap(args) {
   changeTitleForBackButton();
 
-  frames.topmost().navigate({ moduleName: "app/components/stocks/stocks" });
+  frames.topmost().navigate({ moduleName: "components/stocks/stocks" });
 }
 exports.stocksTap = stocksTap;
 
 function plasmaTap(args) {
   changeTitleForBackButton();
 
-  frames.topmost().navigate({ moduleName: "app/components/plasma/plasma" });
+  frames.topmost().navigate({ moduleName: "components/plasma/plasma" });
 }
 exports.plasmaTap = plasmaTap;
 
 function randomTap(args) {
   changeTitleForBackButton();
 
-  frames.topmost().navigate({ moduleName: "app/components/random/random" });
+  frames.topmost().navigate({ moduleName: "components/random/random" });
 }
 exports.randomTap = randomTap;
 

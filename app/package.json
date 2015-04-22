@@ -1,0 +1,16 @@
+{
+	"name": "LED Boxbot",
+	"main": "app.js",
+	"version": "0.10.0",
+	"author": "Brandon Satrom <bsatrom@gmail.com>",
+	"description": "{N} App for Connected LED Panel",
+	"license": "MIT",
+	"keywords": [
+		"IoT",
+		"NativeScript",
+		"controller"
+	],
+	"repository": {
+		"url": "https://github.com/bsatrom/ledBoxApp"
+	}
+}

@@ -1,6 +1,0 @@
-{
-	"name": "LED Boxbot",
-	"main": "app.js",
-	"version": "0.9.0",
-	"description": "Controller App for Internet-Connected LED Box App"
-}

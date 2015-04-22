@@ -7,7 +7,7 @@
         "url":"git://github.com/bsatrom/ledBoxApp.git"
     },
     "keywords":["nativescript","tns","iot","spark","mobile"],
-    "author":"Brandon Satrom",
+    "author":"Brandon Satrom <bsatrom@gmail.com>",
     "bugs": {
         "url":"https://github.com/bsatrom/ledBoxApp/issues"
     },

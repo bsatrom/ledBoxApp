@@ -1,6 +1,8 @@
-<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="pageNavigatedTo">
+<Page cssClass="detailPage" xmlns="http://www.nativescript.org/tns.xsd"
+  navigatedTo="pageNavigatedTo">
   <StackLayout>
-    <Label text="{{ title }}" cssClass="title"/>
-    <Label text="{{ info }}" cssClass="info" textWrap="true"/>
+    <Label text="Show a Plasma animation on your LED Box" cssClass="info"
+      textWrap="true"/>
+    <Button cssClass="SendButton" text="Plasma Me!" tap="sendTapped" />
   </StackLayout>
 </Page>

@@ -10,11 +10,11 @@ function pageLoaded(args) {
     if (applicationModule.ios) {
       page.ios.title = "LED Boxbot";
       frames.topmost().ios.navBarVisibility = "always";
-      
+
       var controller = frames.topmost().ios.controller;
       var navBar = controller.navigationBar;
 
-      navBar.barTintColor = new colorModule.Color("#E0515C").ios;
+      navBar.barTintColor = new colorModule.Color("#DF514C").ios;
       navBar.titleTextAttributes =
         new NSDictionary([UIColor.whiteColor()],
                          [NSForegroundColorAttributeName]);
